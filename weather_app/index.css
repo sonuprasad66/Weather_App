@@ -1,0 +1,117 @@
+
+body{
+    background-color:rgb(13, 188, 101);
+    /* background-color: rgb(228, 228, 159); */
+}
+#cityname{
+    padding: 4px;
+    border-radius: 12px;
+    text-align: center;
+    
+    background-color:white;
+}
+button,input{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 30px;
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+button{
+    height: 35px;
+    width: 300px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+
+}
+button:hover{
+    background-color: rgb(11, 151, 151);
+}
+h1{
+    text-align: center;
+    /* color: rgb(173, 255, 49); */
+    color: blue;
+    font-size: 40px;
+}
+
+span{
+    color: rgb(255, 255, 0);
+    margin-left: 50px;
+    font-size: 90px;
+    
+}
+#container{
+    height: 350px;
+    width: 300px;
+    margin-left: 50px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(71, 92, 90);
+    border-radius: 5px;
+
+
+}
+object{
+    line-height: 0px;
+    margin: -20px;
+}
+#weeklyDiv>div{
+    margin: auto;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(71, 92, 90);
+    border-radius: 5px;
+    
+}
+iframe{
+    height: 400px;
+    width: 400px;
+}
+#weeklyDiv>div>p{
+    line-height: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+#weeklyDiv>div>h3{
+    color: white;
+    font-size: 24px;
+}
+#weeklyDiv{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-top: 10px;
+    line-height: 0px;
+    text-align: center;
+    
+}
+#container>p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#mainContainer{
+    display: flex;
+    margin-top: 30px;
+    
+}
+h2{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.mapouter{
+    margin: auto;
+}
