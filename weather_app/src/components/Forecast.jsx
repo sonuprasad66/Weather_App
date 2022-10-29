@@ -12,13 +12,14 @@ export const ForecastBox = ({ data }) => {
   const { date, day } = dateFormat(data.dt);
 
   return (
-    <Box borderRadius={25} boxShadow="dark-lg" className="box">
+    <Box borderRadius={25} boxShadow="dark-lg" className="box" cursor="pointer">
       <Box
         textAlign={"center"}
         p={3}
-        fontWeight="bold"
         color={"#5E82F4"}
-        fontSize="17px"
+        fontWeight="bold"
+        fontSize="18px"
+        fontFamily="poppins"
         h="35%"
       >
         <Text>{date}</Text>

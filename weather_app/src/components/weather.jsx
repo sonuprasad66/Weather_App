@@ -91,8 +91,7 @@ export const Weather = () => {
               textAlign={"center"}
               color={"#5E82F4"}
               fontFamily="poppins"
-              fontSize="40px"
-              fontWeight="900"
+              size={"xl"}
             >
               Weather forecast
             </Heading>
@@ -141,7 +140,7 @@ export const Weather = () => {
             className="box"
             h={"300px"}
             textAlign="center"
-            fontWeight="900"
+            fontWeight="bold"
           >
             <Flex mt={-5} mr={-5} justifyContent={"right"}>
               <RepeatIcon
@@ -195,7 +194,7 @@ export const Weather = () => {
                 h="100%"
                 color="#5E82F4"
                 fontFamily="poppins"
-                fontWeight="900"
+                fontWeight="bold"
                 paddingLeft="30px"
                 fontSize="18px"
               >
@@ -209,12 +208,11 @@ export const Weather = () => {
               <VStack
                 ml={10}
                 h="100%"
-                fontFamily="sansSerif"
                 w="55%"
                 bg={"#5E82F4"}
                 spacing={4}
                 color="white"
-                fontWeight="900"
+                fontWeight="bold"
                 paddingLeft="30px"
                 fontSize="18px"
                 borderRadius={25}
@@ -274,7 +272,14 @@ export const Weather = () => {
         {forecast &&
           forecast.map((item, i) => <ForecastBox key={i} data={item} />)}
       </SimpleGrid>
-      <Text textAlign={"center"} color={"#5E82F4"} fontWeight="bold" m={5}>
+      <Text
+        textAlign={"center"}
+        color={"#5E82F4"}
+        fontWeight="bold"
+        fontSize="18px"
+        fontFamily="poppins"
+        m={5}
+      >
         © Made With ❤️ By Sonu Prasad.
       </Text>
     </>

@@ -7,7 +7,7 @@ export const getWeatherOncurrentLocation = (lat1, lon1) => (dispatch) => {
   dispatch({ type: types.REQUEST_OF_DATA });
   axios
     .get(
-      `https://api.openweathermap.org/data/2.5/weather?lat=${lat1}&lon=${lon1}&appid=aeb2e8e67a323e70bae652830b434d64`
+      `https://api.openweathermap.org/data/2.5/weather?lat=${lat1}&lon=${lon1}&appid=cfce470b321f7d7995ea04c127f8e651`
     )
     .then((r) => {
       //   console.log(r)
@@ -36,7 +36,7 @@ export const getWeather = (city) => (dispatch) => {
   dispatch({ type: types.REQUEST_OF_DATA });
   axios
     .get(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=aeb2e8e67a323e70bae652830b434d64`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=cfce470b321f7d7995ea04c127f8e651`
     )
     .then((r) => {
       const data = r.data;
