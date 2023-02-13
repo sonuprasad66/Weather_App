@@ -35,18 +35,14 @@
 
 ## Glimpses of Weather App 🙈 :
 
-
-
-
-
 <table>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/101389401/218503912-cf0503de-37af-4ec9-ac30-13d275eb44ec.png" alt="desktop" /></td>
-    <td><img src="https://user-images.githubusercontent.com/101389401/201984194-e6f3e47d-adde-4d8d-b743-dd10d1c8eeb7.png" alt="tab" /></td>
+    <td><img src="https://user-images.githubusercontent.com/101389401/218507717-a5b9e596-78fc-4dd9-b7e2-0f5f74c93fe9.png" alt="tab" /></td>
   </tr>
 
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/101389401/201984369-e8b96084-4abf-4652-92a9-1544c40b4e8a.png" alt="phone-top" /></td>
+    <td><img src="https://user-images.githubusercontent.com/101389401/218507940-db5e81b9-1e01-4fdd-aa97-45d0ec334a09.png" alt="phone-top" /></td>
     <td><img src="https://user-images.githubusercontent.com/101389401/218506423-0c1bdd91-24c0-430c-a2a2-80a33296591a.png"  alt="phone-bottom" /></td>
   </tr>
   
